@@ -1,62 +1,62 @@
 "*":
-  editor:
-    invisibles: {}
-    fontFamily: "Monoid HalfTight"
-    preferredLineLength: 120
-    showIndentGuide: true
-    showInvisibles: true
-    fontSize: 12
   core:
-    themes: [
-      "solarized-dark-ui"
-      "solarized-dark-syntax"
-    ]
     ignoredNames: [
       ".git"
       ".svn"
       ".DS_Store"
     ]
-  "exception-reporting":
-    userId: "66461ea4-5e85-4667-e2da-532acef273d3"
-  "release-notes":
-    viewedVersion: "0.84.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "20fa5d99bb75476dd76108ff5fd38d173499a0e3"
-  "markdown-preview": {}
-  minimap:
-    plugins:
-      bookmarks: true
-      selection: true
-      "minimap-autohide": false
-      "find-and-replace": true
-  "ionide-fsharp":
-    MonoPath: "/Library/Frameworks/Mono.framework/Commands"
-  "ionide-fsi":
-    FsiPath: "/usr/local/bin/fsharpi"
-  "highlight-line":
-    enableSelectionBorder: true
-    underline: "dashed"
-    hideHighlightOnSelect: true
-    enableUnderline: true
-  "ionide-paket":
-    MonoPath: "/Library/Frameworks/Mono.framework/Commands"
+    themes: [
+      "solarized-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Monoid HalfTight"
+    fontSize: 12
+    invisibles: {}
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
   "editor-background":
     box3d:
       shadowOpacity: 9
     image:
-      overlayColor:
-        red: 0
-        green: 0
-        blue: 0
-        alpha: 1
-      url: "/Users/martingondermann/Dropbox/Photos/Wallpapers/used/lambdaphonic.png"
       backgroundSize: "cover"
+      overlayColor:
+        alpha: 1
+        blue: 0
+        green: 0
+        red: 0
+      url: "/Users/martingondermann/Dropbox/Photos/Wallpapers/used/lambdaphonic.png"
     other:
       transparentTabBar: false
     text: {}
     video: {}
+  "exception-reporting":
+    userId: "66461ea4-5e85-4667-e2da-532acef273d3"
+  "highlight-line":
+    enableSelectionBorder: true
+    enableUnderline: true
+    hideHighlightOnSelect: true
+    underline: "dashed"
+  "ionide-fsharp":
+    MonoPath: "/Library/Frameworks/Mono.framework/Commands"
+  "ionide-fsi":
+    FsiPath: "/usr/local/bin/fsharpi"
+  "ionide-paket":
+    MonoPath: "/Library/Frameworks/Mono.framework/Commands"
+  "markdown-preview": {}
+  metrics:
+    userId: "20fa5d99bb75476dd76108ff5fd38d173499a0e3"
+  minimap:
+    plugins:
+      bookmarks: true
+      "find-and-replace": true
+      "minimap-autohide": false
+      selection: true
+  "release-notes":
+    viewedVersion: "0.84.0"
+  welcome:
+    showOnStartup: false
 ".fsharp.fsi.source":
   editor:
     preferredLineLength: 120
@@ -66,9 +66,9 @@
 ".fsharp.fsx.source":
   editor:
     preferredLineLength: 120
-".paket.source":
+".fsharp.source":
   editor:
     preferredLineLength: 120
-".fsharp.source":
+".paket.source":
   editor:
     preferredLineLength: 120
